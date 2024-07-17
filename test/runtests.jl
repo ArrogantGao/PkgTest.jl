@@ -2,5 +2,5 @@ using PkgTest
 using Test
 
 @testset "PkgTest.jl" begin
-    # Write your tests here.
+    include("generate_d3.jl")
 end
